@@ -82,9 +82,20 @@ function Login() {
           </div>
 
           <div className="form-group">
-            <label>
-              Password
-            </label>
+            <div className="password-label-row">
+              <label>Password</label>
+              <Link
+                to="/forgot-password"
+                style={{
+                  fontSize: "13px",
+                  color: "#2563eb",
+                  fontWeight: 600,
+                  textDecoration: "none",
+                }}
+              >
+                Forgot password?
+              </Link>
+            </div>
 
             <input
               className="form-input"
