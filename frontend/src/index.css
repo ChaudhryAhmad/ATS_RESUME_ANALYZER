@@ -1525,7 +1525,8 @@ button {
   }
 
   .navbar-signout {
-    display: none;
+    padding: 8px 10px;
+    font-size: 12px;
   }
 
   .navbar-cta {
@@ -1533,7 +1534,8 @@ button {
   }
 
   .navbar-login {
-    display: none;
+    padding: 8px 10px;
+    font-size: 12px;
   }
 
   .stats-grid {
