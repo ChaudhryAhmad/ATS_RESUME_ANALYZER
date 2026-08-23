@@ -46,14 +46,14 @@ You MUST return ONLY valid JSON.
 
 The JSON must have exactly these fields:
 
-{
+{{
   "score": 0,
   "matched_skills": [],
   "missing_skills": [],
   "strengths": "",
   "improvements": "",
   "recommendation": ""
-}
+}}
 
 Rules:
 
