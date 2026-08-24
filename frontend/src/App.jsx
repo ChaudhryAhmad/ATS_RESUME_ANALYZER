@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ProtectedRoute from "./components/ProtectedRoute";
+import ScrollToTop from "./components/ScrollToTop";
 
 import Home from "./pages/Home";
 import HowItWorks from "./pages/HowItWorks";
@@ -23,6 +24,8 @@ import History from "./pages/History";
 function App() {
   return (
     <div className="app">
+      <ScrollToTop />
+
       <Navbar />
 
       <main>
